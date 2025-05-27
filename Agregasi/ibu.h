@@ -22,7 +22,7 @@ void ibu::tambahAnak(anak* pAnak) {
 void ibu::cetakAnak() {
     cout << "daftar Anak dari Ibu \"" << this->nama << "\":\n";
     for (int i = 0; i < daftar_anak.size(); i++) {
-        cout <<daftar_anak[i]-> << endl;
+        cout <<daftar_anak[i]->nama << endl;
     }
     cout << endl;
 }
